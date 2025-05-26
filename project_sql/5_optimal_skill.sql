@@ -75,4 +75,4 @@ HAVING
 ORDER BY
     salary_average DESC,
     demand_count DESC
-LIMIT 25
+LIMIT 25;

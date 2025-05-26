@@ -32,7 +32,7 @@ FROM
 INNER JOIN skills_job_dim ON skills_job_dim.job_id = top_paying_jobs.job_id
 INNER JOIN skills_dim ON skills_dim.skill_id = skills_job_dim.skill_id
 ORDER BY
-    salary_year_avg DESC
+    salary_year_avg DESC;
 
 /*
 -SQL + Python + a BI tool (like Tableau or Power BI) is the core skill set across most high-paying roles.
